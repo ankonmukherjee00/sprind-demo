@@ -3,11 +3,14 @@
  */
 package com.ankon.SpringAnno;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 /**
  * @author ankon mukherjee
  *
  */
 public class samsung {
+	@Autowired
 	public Mobileprocessor cpu;
 	
 	public Mobileprocessor getCpu() {
